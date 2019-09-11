@@ -9,13 +9,13 @@ Vue.use(Router)
 const routes = [
   {path: '/', component: Main},
   {path: '/pie', component: Pie},
-  {path: '/bar', component: Bar},
+  {path: '/bar', component: Bar}
 ]
 
 const router = new Router({
   mode: 'history',
   routes,
-  linkActiveClass: 'active',
+  linkActiveClass: 'active'
 })
 
 export default router

@@ -6,7 +6,7 @@ export default {
     countries: []
   },
   actions: {
-    async getData({state, commit}) {
+    async getData({commit}) {
       const response = await api.getData()
       console.log(response)
       commit('SET_COUNTRIES', response.data)
