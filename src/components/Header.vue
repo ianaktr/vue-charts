@@ -18,6 +18,7 @@
 <style lang="scss">
 .header {
   padding: 30px 0px;
+  margin-bottom: 40px;
 }
 
 .logo {

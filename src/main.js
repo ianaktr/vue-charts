@@ -12,5 +12,5 @@ const store = new Vuex.Store(VueStore)
 new Vue({
   router,
   store,
-  render: h => h(App),
+  render: h => h(App)
 }).$mount('#app')
