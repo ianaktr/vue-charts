@@ -8,7 +8,7 @@
 </template>
 
 <script>
-import Header from '../components/header'
+import Header from '../components/Header'
 
 export default {
   components: {
@@ -24,5 +24,3 @@ export default {
   margin-top: 100px;
 }
 </style>
-
-
