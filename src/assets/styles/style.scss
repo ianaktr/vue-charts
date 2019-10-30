@@ -19,3 +19,14 @@ a {
     text-decoration: none;
   }
 }
+
+.btn {
+  outline: none;
+
+  &:hover,
+  &:focus,
+  &:active {
+    outline: none;
+    box-shadow: none;
+  }
+}

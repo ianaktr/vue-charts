@@ -1,9 +1,7 @@
 <template>
   <div class="container">
     <Header />
-    <div class="text-center msg-block">
-      The example is going to be soon...
-    </div>
+    <div class="text-center msg-block">The example is going to be soon...</div>
   </div>
 </template>
 
@@ -21,6 +19,6 @@ export default {
 .msg-block {
   font-size: 25px;
   font-weight: 300;
-  margin-top: 100px;
+  margin: 100px 0 20px;
 }
 </style>

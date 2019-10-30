@@ -67,6 +67,10 @@ export default {
 </script>
 
 <style lang="scss">
+.chart-wrapper {
+  margin-bottom: 40px;
+}
+
 .chart-pie {
   text-align: center;
 }
