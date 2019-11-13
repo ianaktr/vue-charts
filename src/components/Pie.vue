@@ -24,7 +24,7 @@
             class="legend-item"
           >
             <div class="title">{{ item.legend }}</div>
-            <div class="value">{{ item.value }}</div>
+            <div class="value">{{ formatNumbers(item.value) }}</div>
           </div>
         </div>
       </div>
@@ -34,14 +34,15 @@
 
 <script>
 import colorsMixin from '../mixins/colorsMixin'
+import chartHelperMixin from '../mixins/chartHelperMixin'
+
 import * as d3 from 'd3'
 
 export default {
-  name: 'pie',
   props: {
     data: Array
   },
-  mixins: [colorsMixin],
+  mixins: [colorsMixin, chartHelperMixin],
   computed: {
     dataValues() {
       return this.data.map(element => element.value)
@@ -66,7 +67,7 @@ export default {
 }
 </script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .chart-wrapper {
   margin-bottom: 40px;
 }
@@ -84,14 +85,18 @@ export default {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 30px;
+  min-height: 30px;
   margin-bottom: 10px;
-  margin-right: 20px;
   padding: 0 10px;
   font-size: 13px;
+  font-weight: 500;
   line-height: 1;
-  color: #111;
   border-left: 4px solid;
+
+  .value {
+    min-width: 80px;
+    text-align: right;
+  }
 }
 
 @media (max-width: 992px) {
