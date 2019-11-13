@@ -32,6 +32,17 @@
     max-height: 90px;
     margin-right: 25px;
   }
+  i {
+    transition: color 0.2s ease;
+  }
+
+  &:hover {
+    color: #222;
+
+    i {
+      color: #dc3545;
+    }
+  }
 }
 
 .menu {
