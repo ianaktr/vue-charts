@@ -2,7 +2,7 @@
   <div class="main-view">
     <header class="header-welcome">
       <router-link to="/" class="logo-welcome">
-        <img alt="Vue&D3" src="../assets/images/logo-2px.png" />
+        <img alt="Vue&D3" src="../assets/images/logo-white.png" />
       </router-link>
 
       <p class="intro">Welcome to example of composing D3 and VueJS</p>
@@ -28,7 +28,7 @@
       rgba(22, 22, 22, 0.7) 75%,
       #161616 100%
     ),
-    url('../assets/images/bg-2.jpg');
+    url('../assets/images/bg.jpg');
   background-position: center;
   background-repeat: no-repeat;
   background-attachment: scroll;

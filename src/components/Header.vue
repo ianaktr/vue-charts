@@ -3,7 +3,7 @@
     <div class="row align-items-center">
       <div class="col-md-5">
         <router-link to="/" class="logo">
-          <img alt="Vue&D3" src="../assets/images/logo-4px-dark.png" />
+          <img alt="Vue&D3" src="../assets/images/logo-dark.png" />
           <span>Vue <i class="icon-heart"></i> D3</span>
         </router-link>
       </div>
