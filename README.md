@@ -1,6 +1,8 @@
 # Vue-charts
 
-This project shows how to cook together VueJS and D3.
+TThis project is about how to combine together VueJs and D3. It is just one of the possible ways how to use the abilities of both.
+
+The demo you can find [here](https://vuecharts.herokuapp.com/).
 
 ## Project setup
 
@@ -20,10 +22,10 @@ yarn run serve
 yarn run build
 ```
 
-### Run your tests
+### Run unit tests
 
 ```
-yarn run test
+yarn run test:unit
 ```
 
 ### Lints and fixes files
@@ -31,7 +33,3 @@ yarn run test
 ```
 yarn run lint
 ```
-
-### Customize configuration
-
-See [Configuration Reference](https://cli.vuejs.org/config/).
